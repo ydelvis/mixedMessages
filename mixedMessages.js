@@ -1,3 +1,11 @@
+/* This project randomly Displays a message from a randomly selected category of messages
+    each time the program is run
+
+                                                        -By ydelvis
+
+    #AmaliTechTraining   #Codecademy 
+*/
+
 const messages = {
     motivational: {
         one: 'You can, and you Will. Believe in yourself! - Elvis',
