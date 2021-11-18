@@ -98,4 +98,4 @@ const messages = {
    
 }
 
-console.log('Message of the Day:\n' + messages.message());
+console.log('Message of the Day:\n' + messages.message() +', and Remember ' + messages.message());
