@@ -98,4 +98,24 @@ const messages = {
    
 }
 
-console.log('Message of the Day:\n' + messages.message() +', and Remember ' + messages.message());
+function welcome(){
+    let seedValue = Math.floor(Math.random()*5);
+
+    switch (seedValue){
+        case 0:
+            return 'Great Day Ahead!'
+        
+        case 1:
+            return 'Hope you had some quality sleep last night'
+
+        case 2: 
+            return 'Heavy Rain Expected today, have that in mind Champ!'
+        case 3:
+            return "You've got an appointment with the Dentist at noon"
+        
+        default:
+            return 'Have a Lovely day!'
+    }
+}
+
+console.log('Goodmorning Ing. Elvis...\n  *' + welcome() +'\n  *' + messages.message() +', \n  *and Remember ' + messages.message());
